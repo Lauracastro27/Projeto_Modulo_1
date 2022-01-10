@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background:url(Arkham_Asylum.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+header{
+    font-size: 40px;
+    color: rgb(27, 27, 27);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    text-shadow: 5px 5px 10px grey;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+}
+
+.container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    flex-wrap: wrap;
+    z-index: 1;
+}
+.background1{
+    background-image: url(capab.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-top: 2px solid rgb(0, 0, 0);
+    border-left: 2px solid rgb(0, 0, 0);
+}
+.background2{
+    background-image: url(capa2.0.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-top: 2px solid rgb(0, 0, 0);
+    border-left: 2px solid rgb(0, 0, 0);
+}
+.background3{
+    background-image: url(BarbaraArkham2.png);
+    background-size: 100%;
+    border-top: 2px solid rgba(255, 255, 255, 0.5);
+    border-left: 2px solid rgba(255, 255, 255, 0.5);
+}
+.container .card{
+    position: relative;
+    width: 280px;
+    height: 400px;
+    margin: 30px;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.container .card .content{
+    padding: 20px;
+    text-align: center;
+    transform: translateY(100px);
+    opacity: 0;
+    transition: 0.5s;
+}
+.container .card:hover .content{
+    transform: translateY(0px);
+    opacity: 1;
+}
+.container .card .content h2{
+    position: absolute;
+    top: -80px;
+    right: 30px;
+    font-size: 8em;
+    color: rgba(255, 255, 255, 0.05);
+    pointer-events: none;
+}
+.container .card .content h3{
+    font-size: 1.8em;
+    color: white;
+    z-index: 1;
+}
+.para1{
+    color: white;
+    font-size: 18px;
+    text-shadow: 5px 5px 10px black;
+}
+.para2{
+    color: white;
+    font-size: 18px;
+    text-shadow: 5px 5px 10px black;
+}
+.para3{
+    color: black;
+    font-size: 18px;
+    text-shadow: 5px 5px 10px white;
+}
+.container .card .content a{
+    position: relative;
+    display: flex;
+    padding: 8px 20px;
+    margin-top: 15px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    border-radius: 20px;
+    font-weight: 500;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2) ;
+    align-items: center;
+    justify-content: center;
+}
+@media (max-width: 1019px){
+   body{
+    background: url(back2.jpg)
+   }
+  header{
+      font-size: 30px;
+  }
+}
