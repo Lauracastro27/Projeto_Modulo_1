@@ -5,8 +5,8 @@
 }
 body{
     background:url(Arkham_Asylum.png);
-    background-size: 100%;
-    background-repeat: no-repeat;
+    min-height: 120vh;
+    min-width: 90vw;
 }
 header{
     font-size: 40px;
@@ -119,9 +119,27 @@ main{
     align-items: center;
     justify-content: center;
 }
-@media (max-width: 1019px){
+footer {
+    position: fixed;
+    bottom:0;
+    left:0;
+    width: 100%;
+}
+.rodape{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(61, 61, 61);   
+}
+footer a{
+    color: #000;
+    box-shadow: inset 0 -3px 0 0 red;
+    box-shadow: none;
+}
+@media (max-width: 870px){
    body{
-    background: url(back2.jpg)
+    background:url(back2.jpg);
    }
   header{
       font-size: 30px;
