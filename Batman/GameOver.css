@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(../Backgrounds/bats.jpg);
+    background-size: 100%;
+}
+header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-decoration: underline;
+  color: rgb(54, 54, 54);
+}
+.container{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   margin: 10px;
+}
+.conteudo{
+   background:black;
+   background-size: 100%;
+   padding: 35px;
+   box-shadow: #ff000029 0px 10px 36px 0px, rgba(253, 0, 0, 0.06) 0px 0px 0px 1px;
+   border-radius: 10px;
+   color: rgb(255, 255, 255);
+   font-size: 25px;
+   margin: 15px 30px 15px 30px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+}
+img{
+  width: 700px;
+  height: 300px;
+  border-radius: 15px;
+}
+p{
+    font-size: 35px;
+    text-shadow: 5px 5px 10px black;
+    margin: 50px;
+}
+.botao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: grey;
+    font-size: 20px;
+}
+button, a{
+    color: black;
+    box-shadow: inset 0 -3px 0 0 red;
+    box-shadow: none;
+    text-decoration: none;
+}
