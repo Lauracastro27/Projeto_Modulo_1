@@ -9,7 +9,7 @@ var mensagem;
 
         if (mensagem == 1) 
         {
-            window.location.href="../Oraculo/Oraculo5.html"  
+            window.location.href="../Oraculo/oraculo5.html";
             break;
         }
         else if (mensagem == 2)

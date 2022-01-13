@@ -9,12 +9,12 @@ var mensagem;
 
         if (mensagem == 1) 
         {
-            window.location.href="../Oraculo/OraculoGameOver2.html"  
+            window.location.href="../Oraculo/OraculoGameOver2.html";  
             break;
         }
         else if (mensagem == 2)
         {
-            window.location.href="../Oraculo/Oraculo3.html";
+            window.location.href="../Oraculo/oraculo3.html";
             break;
         }
         else 

@@ -13,7 +13,7 @@ var mensagem;
         }
         else if (mensagem == 2)
         {
-            window.location.href="../Coringa/coringaFinal.html";
+            window.location.href="../Coringa/coringafinal.html";
             break;
         }
         else 

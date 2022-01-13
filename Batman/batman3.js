@@ -14,7 +14,7 @@ var mensagem;
         }
         else if (mensagem == 2)
         {
-            window.location.href="../Batman/Batman_4.html";
+            window.location.href="../Batman/batman_4.html";
             break;
         }
         else 
