@@ -14,7 +14,7 @@ var mensagem;
         }
         else if (mensagem == 2)
         {
-            window.location.href="../batman/batman_gameover3.html";
+            window.location.href="../Batman/batman_gameover3.html";
             break;
         }
         else 
