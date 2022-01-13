@@ -9,7 +9,7 @@ var mensagem;
 
         if (mensagem == 1) 
         {
-            window.location.href="../Batman/Batman_3.html"; 
+            window.location.href="https://lauracastro27.github.io/Projeto_Modulo_1/Batman/batman_3.html"; 
             break;
         }
         else if (mensagem == 2)
