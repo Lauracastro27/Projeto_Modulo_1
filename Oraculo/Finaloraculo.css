@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(../Backgrounds/backgroundoraculo.jpg);
+}
+header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-decoration: underline;
+  color: white;
+  text-shadow: 5px 5px 5px grey;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+}
+.conteudo{
+   background: black;
+   padding: 35px;
+   border-radius: 10px;
+   color: rgb(255, 255, 255);
+   font-size: 25px;
+   margin: 15px 30px 15px 30px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+}
+img{
+  width: 700px;
+  height: 300px;
+  border-radius: 15px;
+}
+p{
+    font-size: 35px;
+    margin: 50px;
+}
+.botao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: grey;
+    font-size: 20px;
+}
+button, a{
+    color: black;
+    box-shadow: inset 0 -3px 0 0 red;
+    box-shadow: none;
+    text-decoration: none;
+}
