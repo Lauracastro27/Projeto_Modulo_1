@@ -1,7 +1,7 @@
 //fase: batman3
 var mensagem;
 
-        function Batman1() {
+        function batman3() {
 
         while(mensagem != 1 || mensagem != 2) {
 
@@ -9,16 +9,18 @@ var mensagem;
 
         if (mensagem == 1) 
         {
-            location.replace("");
+            window.location.href="../batman/batman_gameover2.html";
+            break;
         }
         else if (mensagem == 2)
         {
-            location.replace("");
+            window.location.href="../Batman/Batman_4.html";
+            break;
         }
         else 
         {
             alert(`Digite 1 ou 2`);
-            return Batman1();
+            return batman3();
         }
     }
 
