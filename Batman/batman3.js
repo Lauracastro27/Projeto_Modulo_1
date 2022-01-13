@@ -9,7 +9,7 @@ var mensagem;
 
         if (mensagem == 1) 
         {
-            window.location.href="../batman/batman_gameover2.html";
+            window.location.href="../Batman/batman_gameover2.html";
             break;
         }
         else if (mensagem == 2)
