@@ -4,9 +4,7 @@
    box-sizing: border-box;
 }
 body{
-   background:url(../Projeto_Modulo_1/Backgrounds/Arkham_Asylum.png);
-   min-height: 120vh;
-   min-width: 90vw;
+   background-image: url(../Projeto_Modulo_1/Backgrounds/Arkham_Asylum.png);
 }
 header{
    font-size: 40px;
@@ -138,9 +136,6 @@ footer a{
    box-shadow: none;
 }
 @media (max-width: 870px){
-   body{
-    background:url(back2.jpg);
-   }
    header{
       font-size: 30px;
   }
