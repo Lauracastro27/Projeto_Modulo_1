@@ -61,7 +61,7 @@ main img{
     height: 200px;
     border-radius: 25px;
 }
-@media (min-width: 320px) {
+@media (max-width: 500px) {
     header{
      display: flex;
      justify-content: center;
