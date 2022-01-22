@@ -67,3 +67,16 @@ p{
     height: 200px;
     border-radius: 25px;
 }
+@media (min-width: 320px) {
+    header{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+      }
+  
+    img{
+       width: 380px;
+       height: 320px;
+    }
+  }

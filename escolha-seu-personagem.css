@@ -135,7 +135,10 @@ footer a{
    box-shadow: inset 0 -3px 0 0 red;
    box-shadow: none;
 }
-@media (max-width: 870px){
+@media (max-width: 890px){
+   body{
+ background-color: #000;
+   }
    header{
       font-size: 30px;
   }
